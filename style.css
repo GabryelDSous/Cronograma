@@ -1,0 +1,45 @@
+body{
+    background-image: linear-gradient(to bottom, #731D3C,#0C3559 80%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 1000px;
+    font-size: 2em;
+    margin: auto;
+}
+main{
+    margin: auto;;
+}
+table{
+    background-image: url(img/wallpaper2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 100px;
+    border-collapse: collapse;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+main{
+    overflow-x: auto;
+    width: 80%;
+}
+th,td{
+    border: 2px solid rgb(255, 255, 255);
+    padding: .1em;
+    text-align: center;
+}
+td{
+    font-weight: 500;
+}
+h1{
+    background-color: white;
+    font-size: 2rem;
+    width: auto;
+    max-width: 15em;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 1em;
+    margin: auto;
+    margin-top: 85px;
+}
