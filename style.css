@@ -30,7 +30,9 @@ th,td{
     text-align: center;
 }
 td{
-    font-weight: 500;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.377);
 }
 h1{
     background-color: white;
