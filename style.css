@@ -1,42 +1,176 @@
 body{
-    background-color: rgb(37, 37, 37);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    max-width: 1300px;
-    font-size: 2em;
-    margin: auto;
+    background: rgb(2,0,36);
+    background: linear-gradient(267deg, rgba(2,0,36,1) 0%, rgba(0,116,224,1) 35%, rgba(0,212,255,1) 100%);
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    height: 100vh;
+    width: 98vw;
+    font-family: Arial, Helvetica, sans-serif;
 }
 main{
-    margin: auto;;
+    overflow: auto;
 }
+/*! TABELA PR INTEIR */
 table{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.329);
+    border-collapse: collapse;
+    color: white;    
+    margin: 50px auto 0px;
+    min-width: 1101.770px;
+    max-width: 1214.200;
+}
+
+/*TODO PARTE DO THEAD */
+thead th{
+    font-size: 1.5em;
+    min-width: 187.234px;
+    padding: 16px;
+    background-color: #0074e075;
+}
+
+/*TODO  PARTE DO TBODY  */
+tbody th{
+    font-size: 1.5em;
+    height: 135px;
+}
+tbody td{
+    max-width: 185.234px;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+tbody th{
+    background-color: #0074e075;
+}
+
+/*? TABELA POR GERAL */
+th,td{
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+}
+/* ! links */
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/*? Java Basico */
+.javaBasico:hover{
+    background-image: url('img/JavaBasico.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .4s;
+}
+.javaBasico:hover > a{
+    color: #6b7baf;
+    transition: .4s;
+}
+/*? C# */
+.CSharp:hover{
+    background-image: url('img/Csharp.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .4s;
+}
+.CSharp:hover > a{
+    color: #a37ab4;
+    transition: .4s;
+}
+/** Kotlin  */
+.kotlin:hover{
+    background-image: url('img/Kotlin.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .4s;
+}
+.kotlin:hover > a{
+    color: #912700;
+    transition: .4s;
+}
+/** PHP  */
+.php:hover{
+    background-image: url('img/PHP-Banco-Dados.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .4s;
+}
+.php:hover > a{
+    color: #3f3f70;
+    transition: .4s;
+}
+/** HTLM E CSS */
+.HTML5:hover{
+    background-image: url('img/HTML5CSS3.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .4s;
+}
+.HTML5:hover > a{
+    color: #b87e49;
+    transition: .4s;
+}
+/** React  */
+.reactCFB:hover{
+    background-image: url('img/React.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    margin-top: 50px;
-    border-collapse: collapse;
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
-    min-width: 957.594px;
+    transition: .4s;
 }
-main{
-    overflow-x: auto;
-    width: 80%;
+.reactCFB:hover > a{
+    color: #88c9d1;
+    transition: .4s;
 }
-th,td{
-    border: 2px solid rgb(255, 255, 255);
-    padding: .4em;
-    text-align: center;
+/** Inglês  */
+.ingles:hover{
+    background-image: url('img/Ingles.jpeg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .4s;
 }
-td{
-    font-weight: 600;
-    color: rgb(161, 161, 161);
-    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.377);
+.ingles:hover > a{
+    color: #D91A3D;
+    transition: .4s;
 }
-td:hover{
-    background-color: rgb(87, 87, 87);
-    color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 10px solid white;
+/** JavaScript  */
+.javascript:hover{
+    background-image: url('img/Javascript.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .4s;
+}
+.javascript:hover > a{
+    color: #fadc45;
+    transition: .4s;
+}
+/** Programação */
+.programacao:hover{
+    background-image: url('img/programacao-basica.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .4s;
+}
+.programacao:hover > a{
+    color: #2C5959;
+    transition: .4s;
+}
+/** Linux */
+.linux:hover{
+    background-image: url('img/Linux.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .4s;
+}
+.linux:hover > a{
+    color: #555555;
+    transition: .4s;
 }
