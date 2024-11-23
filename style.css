@@ -1,8 +1,8 @@
 body{
-    background-image: linear-gradient(to bottom, #731D3C,#0C3559 80%);
+    background-color: rgb(37, 37, 37);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    max-width: 1000px;
+    max-width: 1300px;
     font-size: 2em;
     margin: auto;
 }
@@ -10,15 +10,16 @@ main{
     margin: auto;;
 }
 table{
-    background-image: url(img/wallpaper2.jpg);
+    background-color: black;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    margin-top: 100px;
+    margin-top: 50px;
     border-collapse: collapse;
     font-family: 'Courier New', Courier, monospace;
     color: white;
+    min-width: 957.594px;
 }
 main{
     overflow-x: auto;
@@ -26,22 +27,16 @@ main{
 }
 th,td{
     border: 2px solid rgb(255, 255, 255);
-    padding: .1em;
+    padding: .4em;
     text-align: center;
 }
 td{
     font-weight: 600;
-    color: rgb(0, 0, 0);
+    color: rgb(161, 161, 161);
     text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.377);
 }
-h1{
-    background-color: white;
-    font-size: 2rem;
-    width: auto;
-    max-width: 15em;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    border-radius: 1em;
-    margin: auto;
-    margin-top: 85px;
+td:hover{
+    background-color: rgb(87, 87, 87);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 10px solid white;
 }
