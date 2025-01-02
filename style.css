@@ -78,15 +78,15 @@ a{
     color: #a37ab4;
     transition: .4s;
 }
-/** C  */
-.lC:hover{
+/** linguagem C  */
+.linguagemC:hover{
     background-image: url('img/CursoDeC.png');
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
     transition: .4s;
 }
-.lC:hover > a{
+.linguagemC:hover > a{
     color: #546cf7;
     transition: .4s;
 }
