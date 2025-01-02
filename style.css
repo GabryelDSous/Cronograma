@@ -78,16 +78,16 @@ a{
     color: #a37ab4;
     transition: .4s;
 }
-/** Kotlin  */
-.kotlin:hover{
-    background-image: url('img/Kotlin-01.png');
+/** C  */
+.lC:hover{
+    background-image: url('img/CursoDeC.png');
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
     transition: .4s;
 }
-.kotlin:hover > a{
-    color: #912700;
+.lC:hover > a{
+    color: #546cf7;
     transition: .4s;
 }
 /** PHP  */
