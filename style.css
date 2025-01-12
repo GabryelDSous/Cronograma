@@ -162,15 +162,15 @@ a{
     color: #2C5959;
     transition: .4s;
 }
-/** Linux */
-.linux:hover{
-    background-image: url('img/Linux.png');
+/** Curso de Inteligência Artificial */
+.IA:hover{
+    background-image: url('img/CursoDeIA.jpeg');
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
     transition: .4s;
 }
-.linux:hover > a{
+.IA:hover > a{
     color: #555555;
     transition: .4s;
 }
