@@ -56,8 +56,8 @@ a{
 
 /*? Java Basico */
 .javaBasico:hover{
-    background-image: url('img/JavaBasico.png');
-    background-position: bottom center;
+    background-image: url('img/javaPOO.png');
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     transition: .4s;
