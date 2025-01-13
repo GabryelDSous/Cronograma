@@ -55,15 +55,15 @@ a{
 }
 
 /*? Java Basico */
-.javaBasico:hover{
+.javaPOO:hover{
     background-image: url('img/javaPOO.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     transition: .4s;
 }
-.javaBasico:hover > a{
-    color: #6b7baf;
+.javaPOO:hover > a{
+    color: #6baf7c;
     transition: .4s;
 }
 /*? C# */
