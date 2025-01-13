@@ -114,18 +114,7 @@ a{
     color: #b87e49;
     transition: .4s;
 }
-/** React  */
-.reactCFB:hover{
-    background-image: url('img/React.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: .4s;
-}
-.reactCFB:hover > a{
-    color: #88c9d1;
-    transition: .4s;
-}
+
 /** Inglês  */
 .ingles:hover{
     background-image: url('img/Ingles.jpeg');
@@ -173,4 +162,8 @@ a{
 .IA:hover > a{
     color: #555555;
     transition: .4s;
+}
+
+.black{
+    color: black;
 }
