@@ -92,14 +92,14 @@ a{
 }
 /** PHP  */
 .php:hover{
-    background-image: url('img/PHP-Banco-Dados.png');
-    background-position: bottom center;
+    background-image: url('https://www.estudonauta.com/wp-content/uploads/bb-plugin/cache/github-00-1024x640-landscape-6044199db0ce6d66f2c4f554016b7f1d-5d48cb37edbef.png');
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     transition: .4s;
 }
 .php:hover > a{
-    color: #3f3f70;
+    color: #6980ce;
     transition: .4s;
 }
 /** HTLM E CSS */
