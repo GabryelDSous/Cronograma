@@ -78,16 +78,16 @@ a{
     color: #a37ab4;
     transition: .4s;
 }
-/** linguagem C  */
-.linguagemC:hover{
-    background-image: url('https://www.estudonauta.com/wp-content/uploads/bb-plugin/cache/Linguagem-C-03-1024x640-landscape-54dc2321466862d32d9aed72fdb196da-5d48cb37edbef.png');
-    background-position: bottom center;
+/** Go  */
+.Go:hover{
+    background-image: url('https://external-preview.redd.it/WL-Uk2WgyTQORr0WwWQ_HfOKcTLTf5tryS1w3Dy87Es.jpg?width=640&crop=smart&auto=webp&s=c767c3cca3fe5898809451759a14748eb5cfdb96');
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     transition: .4s;
 }
-.linguagemC:hover > a{
-    color: #546cf7;
+.Go:hover > a{
+    color: #5daadd;
     transition: .4s;
 }
 /** GitHube  */
@@ -115,7 +115,7 @@ a{
     transition: .4s;
 }
 
-/** Inglês  */
+/** Inglês Curso em video */
 .ingles:hover{
     background-image: url('img/Ingles.jpeg');
     background-position: bottom center;
