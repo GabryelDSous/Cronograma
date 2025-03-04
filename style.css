@@ -1,10 +1,58 @@
 /** tudo */
 @media screen {
+    a{
+        color: rgb(172, 48, 48);
+        text-decoration: none;
+    }
+}
+
+/** Celular */
+@media screen and (max-width: 600px) {
+    body{
+        background-image: url("img/fundoCelular.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        margin: auto;
+        padding: 0px;
+        border: none;
+        height: 100vh;
+        width: 98vw;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    table{
+        background-color: rgba(0, 0, 0, 0.329);
+        border-collapse: collapse;
+        color: rgb(173, 98, 0);    
+        margin: auto;
+        margin-top: 13em;
+    }
+    tr{
+        background-color: rgba(0, 0, 0, 0.397);
+    }
+    th,td{
+        border: 2px solid rgb(255, 214, 30);
+        text-align: center;
+    }
+
+    /** Java POO */
+    .javaPOO:hover > a{
+        color: #6baf7c;
+        transition: .4s;
+    }
+    .javaLo:hover{
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #a37ab4;
+        transition: .4s;
+    }
+}
+
+
+@media screen and (min-width: 600px) {
         /* ! links */
-        a{
-            color: rgb(172, 48, 48);
-            text-decoration: none;
-        }
+
         
         /*? Java Basico */
         .javaPOO:hover{
@@ -24,9 +72,6 @@
             background-position: bottom center;
             background-repeat: no-repeat;
             background-size: cover;
-            transition: .4s;
-        }
-        .javaLo:hover > a{
             color: #a37ab4;
             transition: .4s;
         }
@@ -119,42 +164,4 @@
         .black{
             color: black;
         }
-}
-
-/** Celular */
-@media screen and (max-width: 600px) {
-    body{
-        background-image: url("img/fundoCelular.webp");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        margin: auto;
-        padding: 0px;
-        border: none;
-        height: 100vh;
-        width: 98vw;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    table{
-        background-color: rgba(0, 0, 0, 0.329);
-        border-collapse: collapse;
-        color: rgb(173, 98, 0);    
-        margin: auto;
-        margin-top: 10em;
-    }
-
-    tr{
-        background-color: rgba(0, 0, 0, 0.397);
-    }
-    
-    th,td{
-        border: 2px solid rgb(255, 214, 30);
-        text-align: center;
-    }
-}
-
-
-@media screen and (min-width: 600px) {
-
 }
