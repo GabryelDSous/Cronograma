@@ -53,6 +53,7 @@
 @media screen and (min-width: 600px) {
         /* ! links */
 
+<<<<<<< HEAD
         
         /*? Java Basico */
         .javaPOO:hover{
@@ -164,4 +165,118 @@
         .black{
             color: black;
         }
+=======
+/*? Java Basico */
+.javaPOO:hover{
+    background-image: url('img/javaPOO.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .4s;
+}
+.javaPOO:hover > a{
+    color: #6baf7c;
+    transition: .4s;
+}
+/*? JAVA LOYANE */
+.javaLo:hover{
+    background-image: url('https://www.erudio.com.br/blog/wp-content/uploads/2024/12/java.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .4s;
+}
+.javaLo:hover > a{
+    color: #a37ab4;
+    transition: .4s;
+}
+/** linguagem C  */
+.linguagemC:hover{
+    background-image: url('https://www.estudonauta.com/wp-content/uploads/bb-plugin/cache/Linguagem-C-03-1024x640-landscape-54dc2321466862d32d9aed72fdb196da-5d48cb37edbef.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .4s;
+}
+.linguagemC:hover > a{
+    color: #546cf7;
+    transition: .4s;
+}
+/** GitHube  */
+.gitHub:hover{
+    background-image: url('https://www.estudonauta.com/wp-content/uploads/bb-plugin/cache/github-00-1024x640-landscape-6044199db0ce6d66f2c4f554016b7f1d-5d48cb37edbef.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .4s;
+}
+.gitHub:hover > a{
+    color: #6980ce;
+    transition: .4s;
+}
+/** HTLM E CSS */
+.HTML5:hover{
+    background-image: url('img/HTML5CSS3.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .4s;
+}
+.HTML5:hover > a{
+    color: #b87e49;
+    transition: .4s;
+}
+
+/** Inglês  */
+.ingles:hover{
+    background-image: url('img/Ingles.jpeg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .4s;
+}
+.ingles:hover > a{
+    color: #D91A3D;
+    transition: .4s;
+}
+/** Ingles gabryel borges  */
+.InglesG:hover{
+    background-image: url('https://aws-assets.kiwify.com.br/cdn-cgi/image/fit=scale-down,width=400/EoWub3eA8UDn38C/course_thumbnails_6d467522-9669-416b-94dd-3cc712891841_850fd184c1044f24a3ce9b4d5498f2dd.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .4s;
+}
+.InglesG:hover > a{
+    color: #6872ff;
+    transition: .4s;
+}
+/** Programação */
+.programacao:hover{
+    background-image: url('img/programacao-basica-03.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .4s;
+}
+.programacao:hover > a{
+    color: #2C5959;
+    transition: .4s;
+}
+/** Curso de Inteligência Artificial */
+.IA:hover{
+    background-image: url('img/CursoDeIA.jpeg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .4s;
+}
+.IA:hover > a{
+    color: #555555;
+    transition: .4s;
+}
+
+.black{
+    color: black;
+>>>>>>> parent of c4ec213 (golang)
 }
